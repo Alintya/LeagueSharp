@@ -47,7 +47,7 @@ namespace Veigar
             _r = new Spell(SpellSlot.R, 650);
 
        // Finetune spells  CSpeed,
-            Q.SetSkillshot(0.25f, 70f, 2000f, false, SkillshotType.SkillshotLine);
+            Q.SetSkillshot(0.25f, 70f, 2000f, true, SkillshotType.SkillshotLine);
             W.SetSkillshot(1.25f, 225f, float.MaxValue, false, SkillshotType.SkillshotCircle);
             E.SetSkillshot(0.8f, 730f, float.MaxValue, false, SkillshotType.SkillshotCircle);
             R.SetTargetted(0.25f, 1400f);
